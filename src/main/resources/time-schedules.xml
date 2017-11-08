@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/task
+                           http://www.springframework.org/schema/task/spring-task.xsd">
+    <!-- 	注解形式的定时器任务，需要在定时执行的方法上加上注解@Scheduled(cron = "0/2 * * * * ?")以及将定时器类交由spring管控 -->
+    <!--<task:annotation-driven/>-->
+
+
+
+    <!-- 	xml配置定时任务 -->
+    <!--<task:scheduled-tasks>-->
+        <!--<task:scheduled ref="timerDo" method="schedule" cron="0/5 * * * * ?"/>-->
+    <!--</task:scheduled-tasks>-->
+</beans>

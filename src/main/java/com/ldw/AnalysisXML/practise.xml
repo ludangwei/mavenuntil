@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bootNode>
+    <firstChildNode name="first" id="company">
+        <secondChildNode>
+            <name>ludanwgei</name>
+            <age>26</age>
+            <posistion id="department">
+                    <department_name>信息技术部</department_name>
+                    <describe>java软件开发工程师</describe>
+            </posistion>
+            <name>胡汉三</name>
+            <age>27</age>
+            <posistion id="department">
+                <department_name>信息技术部</department_name>
+                <describe>ios软件开发工程师</describe>
+            </posistion>
+            <name>姜晓峰</name>
+            <age>28</age>
+            <posistion id="department">
+                <department_name>信息技术部</department_name>
+                <describe>前端设计</describe>
+            </posistion>
+        </secondChildNode>
+        <xmll id="describe">
+            <goal>解析xml</goal>
+        </xmll>
+    </firstChildNode>
+</bootNode>

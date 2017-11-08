@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.ldw.dao.DataSourceDao">
+    <select id="select" resultType="String" parameterType="String" statementType="STATEMENT">
+		${_parameter}
+	</select>
+	
+	<insert id="insertBySql" parameterType="String" statementType="STATEMENT">
+		${_parameter}
+	</insert>
+
+	<select id="selectData" statementType="STATEMENT" parameterType="String" resultType="Map">
+		${_parameter}
+	</select>
+
+
+    <!-- 	<parameterMap type="com.ldw.javabean.Message" id="mesmap"> -->
+    <!-- 		<parameter property="id"/> -->
+    <!-- 		<parameter property="name" /> -->
+    <!-- 		<parameter property="path" /> -->
+    <!-- 		<parameter property="clobs" javaType="java.lang.String" jdbcType="CLOB" typeHandler="com.ldw.util.ClobHanlder" /> -->
+    <!-- 	</parameterMap> -->
+
+    <!-- 	<insert id="getSomeMes" parameterType="String"> -->
+
+    <!-- 	</insert> -->
+
+</mapper>
